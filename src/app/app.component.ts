@@ -7,10 +7,7 @@ import {User} from "./user";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  user: User = {
-    name: "trung",
-    address: "BN"
-  }
+  user!: User
   title = 'test';
 
 }
